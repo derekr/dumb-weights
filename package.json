@@ -1,6 +1,6 @@
 {
   "name": "dumb-weights",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Calculate plates to use based on provided weight.",
   "main": "index.js",
   "scripts": {
