@@ -9,7 +9,7 @@ npm install --save dumb-weights
 ```
 
 ```js
-var dw = require('dw');
+var dw = require('dumb-weights');
 
 dw(135); // [ 45 ]
 ```
