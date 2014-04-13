@@ -1,0 +1,26 @@
+{
+  "name": "dumb-weights",
+  "version": "0.0.0",
+  "description": "Calculate plates to use based on provided weight.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derekr/dumb-weights"
+  },
+  "keywords": [
+    "weights",
+    "plates"
+  ],
+  "author": "Derek Reynolds <drk@diy.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekr/dumb-weights/issues"
+  },
+  "homepage": "https://github.com/derekr/dumb-weights",
+  "devDependencies": {
+    "tap": "^0.4.8"
+  }
+}
