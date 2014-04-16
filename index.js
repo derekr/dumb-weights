@@ -14,14 +14,18 @@ module.exports = function dumbweights (weight) {
     if (weight <= 0) return;
 
     var _plates = [];
-    var _weight = weight;
+    var _weight = weight / 2;
 
     for (var i = plates.length - 1; i >= 0; i--) {
-        var p = plates[i] * 2;
+        var p = plates[i];
         var div = Math.floor(_weight / p);
 
         if (div >= 1) {
-            _plates.push(plates[i]);
+            var d = div;
+            while (d > 0) {
+                _plates.push(plates[i]);
+                d -= 1;
+            }
             _weight -= div * p;
         }
 
